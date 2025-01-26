@@ -1,4 +1,6 @@
-export const courses = [
+import { CourseTypes } from 'src/app/models/course-to';
+
+export const courses: CourseTypes[] = [
   {
     course: 'Javascript',
     level: 1,

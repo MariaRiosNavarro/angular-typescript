@@ -1,4 +1,6 @@
-export const users = [
+import { UserTypes } from 'src/app/models/user-to';
+
+export const users: UserTypes[] = [
   {
     name: 'Ada',
     last: 'Laveplace',
